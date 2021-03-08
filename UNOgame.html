@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./UNOgame.css">
+    
+    <title>UNO</title>
+</head>
+
+<body>
+    <header>
+        <h1>UNO GAME</h1>
+    </header>
+    <main>
+        <section id="player1" class="player-1">
+            <div id="name1" class=player-name>Me</div>
+            <div id="cards" class="pictures-cards"></div>
+            <div id="errorMessage">You cannot add this card! Please select one that match.</div>
+        </section>
+        <section id="player2" class="player-2">
+            <div id="name2" class=player-name>Anne</div>
+            <div id="numberOfCards2"></div>
+        </section>
+        <section id="player3" class="player-3">
+            <div id="name3" class=player-name>Taylor</div>
+            <div id="numberOfCards3"></div>
+        </section>
+        <section id="player4" class="player-4">
+            <div id="name4" class=player-name>Vanessa</div>
+            <div id="numberOfCards4"></div>
+        </section>
+        <section id="lastMiddleCard" class="last-middle-card">
+        </section>
+        <section id="unoPictures"></section>
+        <section id="roundTurn"></section>
+        <section id="message"></section>
+        <section id="cardsFromDeck"></section>
+        <section id="instructions"></section>
+    </main>
+    <script src="UNOgame.js"></script>
+</body>
+
+</html>
