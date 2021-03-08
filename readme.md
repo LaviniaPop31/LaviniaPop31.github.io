@@ -1,5 +1,7 @@
+http://LaviniaPop31.github.io/UnoGame/UNOgame.html
 
-Uno game = "Șeptică" with some special cards
+
+Uno game
 
 The aim of the game is to be the first player who finish the cards(in my version).
 The deck consists of 100 cards: four each of "Wild" and "Wild Draw Four," and 23 each of four different colors (red, yellow, green, blue). Each color consists of one zero, two each of 1 through 9, and two each of "Skip," "Draw Two." These four types are known as "action cards."
